@@ -1,9 +1,9 @@
 ############################ banner ##########################
 banner:
   enable : true
-  title : "Best Beauty Cream For Your Skin"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed dia"
+  title : "Fashion is a way of life, live it, feel it, embrace it."
+  # content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+  #         dolore magna aliquyam erat, sed dia"
   image : "images/banner.png"
   # button
   button:
@@ -12,7 +12,7 @@ banner:
     link : "products"
   # demo video
   video:
-    enable : true
+    enable : false
     videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
 
 ########################## About ##############################
