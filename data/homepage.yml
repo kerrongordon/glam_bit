@@ -18,10 +18,8 @@ banner:
 ########################## About ##############################
 about:
   enable : true
-  title : "About Our Product"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-          clita kasd gubergren,"
+  title : "About Glam Bits"
+  content : "Glam Bits is a Grenadian Based Women’s Fashion Boutique where women can find a style for every taste and budget. Our goal is to make our customers feel beautiful, confident, and comfortable in every piece of clothing that we provide. Our customers are 100% guaranteed to make a statement every time they step out in the selected pieces from Glam Bits. The name speaks for itself once you shop you will never be disappointed!"
   image : "images/about.png"
 
 
@@ -82,10 +80,9 @@ advantage:
 ######################## Promo Video ##########################
 video:
   enable : true
-  title : "How To Use This Product?"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et."
-  videoThumb : "images/video-thumb.jpg"
+  title : "founder"
+  content : "Hello fashion divas my name is Kerrisha John and am the founder of Glam Bits. Glam Bits is a business created to serve people from all ages, race, and culture. It was established on the bases of the need for modern and unique pieces. Glam Bits not only have pieces for the regular sized people but also the plus sized individuals. There is a little of everything at Glam Bits. Come shop with us today!"
+  videoThumb : "images/video-thumb1.jpg"
   videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
 
 
