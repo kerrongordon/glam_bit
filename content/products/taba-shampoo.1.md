@@ -1,5 +1,5 @@
 ---
-title: Taba Shampoo
+title: Necklace for Women, Real Gold
 date: 2019-10-17T11:22:16.000+06:00
 description: For Silky Hair
 price: '30.00'
@@ -14,6 +14,6 @@ images:
 - image: images/products/product-4.png
 
 ---
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-
-takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+About SISGEM  
+  
+SISGEM Jewelry is a famous and a registered jewelry brand, committed to providing customers with high quality products and services, is renowned by its interesting and unique designs which makes the rings, bracelet, earrings and necklace ideal for both formal and casual occasions. we specializes in the whole line of fine jewelry making, Our main products are fashion 10k, 14k, 18k gold jewelry, silver jewelry and wedding diamond jewelry. There is where our mission is, we always focus on, committed to provide easy luxury and inner joyfulness to our each customer by offering premium jewelry and whole-hearted Service.
