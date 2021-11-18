@@ -9,10 +9,8 @@ shortDescription: Women's Summer Casual V-neck Plant Print Sleeveless Large Size
   Dress
 productID: "8"
 images:
-- image: images/products/product-3.png
-- image: images/products/product-2.png
-- image: images/products/product-6.png
-- image: images/products/product-4.png
+- image: "/uploads/awgcd210322smlr3.jpg"
+- image: "/uploads/awgcd210322vqil0.jpg"
 
 ---
 Women's Summer Casual V-neck Plant Print Sleeveless Large Size Long Dress  
