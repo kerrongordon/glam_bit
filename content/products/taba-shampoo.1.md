@@ -9,6 +9,7 @@ shortDescription: Registered jewelry brand, committed to providing customers wit
 productID: "7"
 images:
 - image: "/uploads/all-in-one.jpeg"
+- image: "/uploads/all-in-one.jpeg"
 
 ---
 About SISGEM  
