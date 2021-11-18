@@ -1,35 +1,26 @@
 ---
-title: "Taba Shampoo"
-date: 2019-10-17T11:22:16+06:00
-draft: false
-
-# meta description
-description : "For Glowing Skin"
-
-# product Price
-price: "20.00"
-priceBefore: "25.00"
-
-# Product Short Description
-shortDescription: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut"
-
-#product ID
+title: Bescita Summertime Women One-piece V-neck One-piece Dress
+date: 2021-11-18T05:22:16+00:00
+description: Bescita Summertime Women One-piece V-neck One-piece Dress
+price: '80.00'
+priceBefore: ''
+shortDescription: Bescita Summertime Women One-piece V-neck One-piece Dress
 productID: "9"
-
-# type must be "products"
-type: "products"
-
-# product Images
-# first image will be shown in the product page
 images:
-  - image: "images/products/product-6.png"
-  - image: "images/products/product-2.png"
-  - image: "images/products/product-3.png"
-  - image: "images/products/product-4.png"
+- image: "/uploads/awgcd210320cyw1u.jpg"
+- image: "/uploads/awgcd2103208h3cc.jpg"
+- image: "/uploads/awgcd2103207tk9b.jpg"
+- image: "/uploads/awgcd2103208yod9.jpg"
+
 ---
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
-
-takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+Summertime Fashion Women One-piece V-neck One-piece Dress  
+  
+Features:  
+  
+lightweight, soft and breathable; No lining, No stretch  
+  
+Casual and elegant Top,Evening Party Club Tops, Party Wear or Casual Daily Wear.Perfect for beach, vacation or daily wear.  
+  
+Washing Suggestion: Hand wash cold and hang dry.  
+  
+Please kindly check the picture for the size detail before purchase it. Please allow 1-2cm differs due to manual measurement, thanks(Note:The Generic Size Chart is not our size)
