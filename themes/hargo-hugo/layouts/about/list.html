@@ -1,0 +1,19 @@
+{{ define "main" }}
+    {{ partial "page-title.html" . }}
+
+    <section class="section pt-0">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-lg-7">
+                    <div class="text-center">
+                        <img style="width: 250px; height: 250px; border-radius: 50%; margin-bottom: 30px;" src="{{ site.Data.about.image | absURL }}" alt="{{ site.Data.about.title }}">
+                    </div>
+                    <h3 class="text-center">{{ site.Data.about.title }}</h3>
+                    <p>{{ site.Data.about.content | markdownify }}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{ partial "cta.html" . }}
+{{ end }}

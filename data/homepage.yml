@@ -4,7 +4,7 @@ banner:
   title : "Fashion is a way of life, live it, feel it, embrace it."
   # content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
   #         dolore magna aliquyam erat, sed dia"
-  image : "images/banner.png"
+  image : "images/feature-extraction-transparent.png"
   # button
   button:
     enable : true
@@ -17,17 +17,17 @@ banner:
 
 ########################## About ##############################
 about:
-  enable : true
-  title : "About Glam Bits"
-  content : "Glam Bits is a Grenadian Based Women’s Fashion Boutique where women can find a style for every taste and budget. Our goal is to make our customers feel beautiful, confident, and comfortable in every piece of clothing that we provide. Our customers are 100% guaranteed to make a statement every time they step out in the selected pieces from Glam Bits. The name speaks for itself once you shop you will never be disappointed!"
-  image : "images/about.png"
+  enable : false
+  title : "founder"
+  content : "Hello fashion divas my name is Kerrisha John and am the founder of Glam Bits. Glam Bits is a business created to serve people from all ages, race, and culture. It was established on the bases of the need for modern and unique pieces. Glam Bits not only have pieces for the regular sized people but also the plus sized individuals. There is a little of everything at Glam Bits. Come shop with us today!"
+  image : "images/video-thumb1.jpg"
 
 
 ###################### Call to action ########################
 cta:
   enable : true
-  title : "Buy one Get One Free Taba Cream"
-  content : "Available for limited time only. Grab one while you still can!"
+  title : "Black Friday Price Protection Deals"
+  content : "Available for limited time only. Grab while you still can!"
   image : "images/cta.png"
   overlayImage : "images/cta-overlay.png"
   button:
@@ -36,7 +36,7 @@ cta:
 
 ######################## raw material #######################
 material:
-  enable : true
+  enable : false
   title : "Ingredients Of Our Products"
   subtitle : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
           dol."
@@ -63,7 +63,7 @@ material:
 
 ########################### Advantage #########################
 advantage:
-  enable : true
+  enable : false
   title : "Advantages Of Using <br> Our Product"
   subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
   image : "images/advantage.png"
@@ -95,7 +95,7 @@ products:
 
 ########################## Testimonial ########################
 testimonial:
-  enable : true
+  enable : false
   title : "What People Are Saying <br> About Our Product"
   testimonialItem:
     # testimonial item loop

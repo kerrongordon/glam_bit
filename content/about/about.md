@@ -1,0 +1,3 @@
+### About Glam Bits
+
+Glam Bits is a Grenadian Based Women’s Fashion Boutique where women can find a style for every taste and budget. Our goal is to make our customers feel beautiful, confident, and comfortable in every piece of clothing that we provide. Our customers are 100% guaranteed to make a statement every time they step out in the selected pieces from Glam Bits. The name speaks for itself once you shop you will never be disappointed!

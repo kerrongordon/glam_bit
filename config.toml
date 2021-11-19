@@ -14,8 +14,8 @@ URL = "terms-conditions"
 name = "Terms & Conditions"
 weight = 3
 [[menu.footer]]
-URL = "blog"
-name = "Blog"
+URL = "about"
+name = "About"
 weight = 2
 [[menu.footer]]
 URL = "products"
@@ -26,8 +26,8 @@ URL = "contact"
 name = "Contact"
 weight = 3
 [[menu.main]]
-URL = "blog"
-name = "Blog"
+URL = "about"
+name = "About"
 weight = 2
 [[menu.main]]
 URL = "products"
@@ -35,12 +35,12 @@ name = "Products"
 weight = 1
 [params]
 author = "Kerrisha John"
-copyright = "Copyright &copy; 2021 [Glam Bit](https://glambit.web.app/) All Rights Reserved"
+copyright = "Copyright &copy; 2021 [Glam Bit](https://glambit.web.app/) All Rights Reserved. Website by [Kerrisha John](#)."
 currencySymbol = "$"
 description = "Fashion is a way of life, live it, feel it, embrace it."
 email = "Info@glambits.com"
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-googleAnalitycsID = ""
+googleAnalitycsID = "212952880"
 home = "Home"
 location = "Dhaka, Bangladedsh"
 logo = "images/logo.png"
