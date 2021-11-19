@@ -28,4 +28,16 @@
   {{ "<!-- Favicon -->" | safeHTML }}
   <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
   <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
+
+  <!--  Essential META Tags -->
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://glambit.web.app/images/feature-extraction-transparent.png">
+<meta property="og:url" content="https://glambit.web.app">
+<meta name="twitter:card" content="summary_large_image">
+
+<!--  Non-Essential, But Recommended -->
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+<meta property="og:site_name" content="{{ .Title }}">
+<meta name="twitter:image:alt" content="Alt text for image">
 </head>
