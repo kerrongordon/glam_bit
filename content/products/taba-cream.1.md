@@ -3,8 +3,8 @@ title: Bulova 98S115 Diamond Analog Display Women's Watch, Two-Tone Band, Round 
   Case
 date: 2019-10-17T11:22:16.000+06:00
 description: Dress Two-Tone Female
-price: '20.00'
-priceBefore: '25.00'
+price: '300.00'
+priceBefore: ''
 shortDescription: Dress Two-Tone Female
 productID: "1"
 images:
