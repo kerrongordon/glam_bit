@@ -2,8 +2,8 @@
 title: women handbag fashion genuine leather bag portable shoulder bag crossbody bolsas
 date: 2019-10-17T11:22:16.000+06:00
 description: 'women messenger bags new women handbag fashion genuine leather bag '
-price: '20.00'
-priceBefore: '25.00'
+price: '85.00'
+priceBefore: '100.00'
 shortDescription: 'women messenger bags new women handbag fashion genuine leather
   bag '
 productID: "2"
