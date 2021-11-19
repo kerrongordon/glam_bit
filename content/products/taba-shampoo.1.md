@@ -1,9 +1,8 @@
 ---
-title: 'Mysterious Allure: Sterling Silver 2.25 ct. Pear Shape Blue Topaz Pendant
-  with 18 inch Silver Necklace'
+title: Sterling Silver 2.25 ct. Pear Shape Blue Topaz Pendant with 18 inch Silver
+  Necklace
 date: 2019-10-17T11:22:16.000+06:00
-description: 'Mysterious Allure: Sterling Silver 2.25 ct. Pear Shape Blue Topaz Pendant
-  with 18 inch Silver Necklace'
+description: Blue Topaz Pendant with 18 inch Silver Necklace
 price: '100.00'
 priceBefore: ''
 shortDescription: Pendants Sterling Silver Gift Box
