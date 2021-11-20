@@ -4,7 +4,8 @@ banner:
   title : "Fashion is a way of life, live it, feel it, embrace it."
   # content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
   #         dolore magna aliquyam erat, sed dia"
-  image : "images/feature-extraction-transparent.png"
+  # image : "images/feature-extraction-transparent.png"
+  image : "images/logo1.png"
   # button
   button:
     enable : true

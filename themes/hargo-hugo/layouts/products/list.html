@@ -2,39 +2,99 @@
 
 {{ partial "page-title.html" . }}
 
+<!-- products -->
+{{ if site.Data.homepage.products.enable }}
 <section class="section pt-0">
   <div class="container">
     <div class="row">
-      {{ range .Data.Pages }}
+      <div class="col-12 text-center mb-4">
+        <h2>Plus Size</h2>
+      </div>
+      {{ range first 3 (where site.RegularPages "Type" "plus-size") }}
       <div class="col-lg-4 col-sm-6 mb-4">
         <div class="card border-0 text-center">
           <a href="{{ .Permalink }}">
             {{ range first 1 .Params.Images }}
-            <img src="{{ .image | absURL }}" alt="{{ .Title }}" class="card-img-top">
+            <img src="{{ .image | absURL }}" alt="{{ .Title }}" class="card-img-top" style="height: 500px;">
             {{ end }}
           </a>
           <div class="card-body">
             <a href="{{ .Permalink }}" class="h4">{{ .Title }}</a>
-            <p>{{ .Params.Description }}</p>
-            <div class="mb-4">
-              {{ if .Params.PriceBefore }}
-              <s>{{ site.Params.currencySymbol }}{{ .Params.PriceBefore }}</s>
-              {{ end }}
-              <span class="lead text-primary">{{ site.Params.currencySymbol }}{{ .Params.Price }}</span>
-            </div>
-            <button class="snipcart-add-item btn btn-sm btn-outline-primary" data-item-id="{{ .Params.ProductID }}"
-              data-item-name="{{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
-              {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}">
-              Add to cart
-            </button>
           </div>
         </div>
       </div>
       {{ end }}
     </div>
+    <div class="text-center">
+      <a href="/plus-size" class="btn btn-primary mr-3">View All</a>
+    </div>
   </div>
 </section>
+{{ end }}
+<!-- /products -->
+<hr>
+<!-- products -->
+{{ if site.Data.homepage.products.enable }}
+<section class="section ">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-4">
+        <h2>Regular Size</h2>
+      </div>
+      {{ range first 3 (where site.RegularPages "Type" "regular-size") }}
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card border-0 text-center">
+          <a href="{{ .Permalink }}">
+            {{ range first 1 .Params.Images }}
+            <img src="{{ .image | absURL }}" alt="{{ .Title }}" class="card-img-top" style="height: 500px;">
+            {{ end }}
+          </a>
+          <div class="card-body">
+            <a href="{{ .Permalink }}" class="h4">{{ .Title }}</a>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    <div class="text-center">
+      <a href="/regular-size" class="btn btn-primary mr-3">View All</a>
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /products -->
+<hr>
+<!-- products -->
+{{ if site.Data.homepage.products.enable }}
+<section class="section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-4">
+        <h2>Accessories</h2>
+      </div>
+      {{ range first 3 (where site.RegularPages "Type" "accessories") }}
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card border-0 text-center">
+          <a href="{{ .Permalink }}">
+            {{ range first 1 .Params.Images }}
+            <img src="{{ .image | absURL }}" alt="{{ .Title }}" class="card-img-top" style="height: 500px;">
+            {{ end }}
+          </a>
+          <div class="card-body">
+            <a href="{{ .Permalink }}" class="h4">{{ .Title }}</a>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    <div class="text-center">
+      <a href="/accessories" class="btn btn-primary mr-3">View All</a>
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /products -->
 
-{{ partial "cta.html" . }}
+{{/*  {{ partial "cta.html" . }}  */}}
 
 {{ end }}

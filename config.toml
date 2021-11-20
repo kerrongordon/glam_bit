@@ -21,6 +21,7 @@ weight = 2
 URL = "products"
 name = "Products"
 weight = 1
+
 [[menu.main]]
 URL = "contact"
 name = "Contact"
@@ -33,6 +34,26 @@ weight = 2
 URL = "products"
 name = "Products"
 weight = 1
+    [[menu.main]]
+    parent = "Products"
+    name = "Plus Size"
+    url = "plus-size"
+    weight = 1
+    [[menu.main]]
+    parent = "Products"
+    name = "Regular Size"
+    url = "regular-size"
+    weight = 2
+    [[menu.main]]
+    parent = "Products"
+    name = "Shoes"
+    url = "shoes"
+    weight = 3
+    [[menu.main]]
+    parent = "Products"
+    name = "Accessories"
+    url = "accessories"
+    weight = 4
 [params]
 author = "Kerrisha John"
 copyright = "Copyright &copy; 2021 [Glam Bit](https://glambit.web.app/) All Rights Reserved. Website by [Kerrisha John](#)."
@@ -43,7 +64,7 @@ gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSp
 googleAnalitycsID = "212952880"
 home = "Home"
 location = "Dhaka, Bangladedsh"
-logo = "images/logo.png"
+logo = "images/logo1.png"
 mapLatitude = "12.051255"
 mapLongitude = "-61.753218"
 mapMarker = "images/marker.png"
@@ -83,7 +104,7 @@ icon = "ti-youtube"
 link = "#"
 [[params.social]]
 icon = "ti-instagram"
-link = "#"
+link = "https://www.instagram.com/glam_bits_boutique/"
 [[params.social]]
 icon = "ti-pinterest"
 link = "#"
