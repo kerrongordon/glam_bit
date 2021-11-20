@@ -71,7 +71,7 @@ mapMarker = "images/marker.png"
 mobile = "1(473)-415-0999"
 snipcartApiKey = "M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"
 [params.contact]
-formAction = "#"
+formAction = "https://formspree.io/f/mgergbqv"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
@@ -108,3 +108,13 @@ link = "https://www.instagram.com/glam_bits_boutique/"
 [[params.social]]
 icon = "ti-pinterest"
 link = "#"
+
+[[params.external]]
+name = "Instagram"
+link = "https://www.instagram.com/glam_bits_boutique/"
+[[params.external]]
+name = "Fashion Bomb Daily"
+link = "https://fashionbombdaily.com/"
+[[params.external]]
+name = "Who What Wear"
+link = "https://www.whowhatwear.com/"
