@@ -13,9 +13,14 @@
         {{ end }}
 
         <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-color" href="tel:{{ site.Params.phone }}"><i
+                class="ti-headphone-alt text-primary mr-2"></i>
+              {{ site.Params.phone }}</a></li>
           <li class="mb-3"><a class="text-color" href="tel:{{ site.Params.mobile }}"><i
                 class="ti-mobile text-primary mr-2"></i>
-             {{ site.Params.mobile }}</a></li>
+              {{ site.Params.mobile }}</a></li>
+          <li class="mb-3"><a class="text-color" href="{{ site.Params.instagram }}"><i
+                class="ti-instagram text-primary mr-2"></i>Instagram</a></li>
           <li class="mb-3"><a class="text-color" href="mailto:{{ site.Params.email }}"><i
                 class="ti-email text-primary mr-2"></i>{{ site.Params.email }}</a></li>
           <li class="mb-3"><i class="ti-location-pin text-primary mr-2"></i>{{ site.Params.location }}
@@ -52,7 +57,8 @@
   <div class="container">
     <div id="map_canvas" data-latitude="{{ with site.Params.mapLatitude }} {{ . }} {{ end }}"
       data-longitude="{{ with site.Params.mapLongitude }} {{ . }} {{ end }}"
-      data-marker="{{ with site.Params.mapMarker }} {{ . | absURL }} {{ end }}" data-marker-name="{{ site.Title }}"></div>
+      data-marker="{{ with site.Params.mapMarker }} {{ . | absURL }} {{ end }}" data-marker-name="{{ site.Title }}">
+    </div>
   </div>
 </section>
 {{ end }}

@@ -4,7 +4,7 @@ contact:
   # office
   office:
     title : "Central Office"
-    content : "Young Street St George's, Grenada"
+    content : ""
     # other information comes from "config.toml"
 
   # opennig hour
