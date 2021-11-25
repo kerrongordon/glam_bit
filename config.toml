@@ -76,7 +76,8 @@ mapMarker = "images/marker.png"
 mobile = "1(473)-415-0999"
 phone = "1(473)-442-9030"
 instagram = "https://www.instagram.com/glam_bits_boutique/"
-snipcartApiKey = "M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"
+# snipcartApiKey = "M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"
+snipcartApiKey = "MTZiOTU0MTQtYzI4My00MTNjLWE3MzEtMDc2ZWQyYzMyMTk2NjM3NzI4ODE4NjUyMDczNDE2"
 [params.contact]
 formAction = "https://formspree.io/f/mgergbqv"
 [[params.plugins.css]]
