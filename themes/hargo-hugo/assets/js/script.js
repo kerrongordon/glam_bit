@@ -4,46 +4,52 @@ $(window).on('load', function () {
 
   const button = document.querySelector('#item-button')
   const quantity = document.querySelector('#quantity')
-  quantity.value = 1;
-  quantity.addEventListener('change', () => {
-    // Sets the default quantity when adding the item
-    button.setAttribute('data-item-quantity', quantity.value)
-  })
-  const select = document.querySelector('#frame_color')
+
+  if (quantity !== null) {
+    quantity.value = 1;
+    quantity.addEventListener('change', () => {
+      // Sets the default quantity when adding the item
+      button.setAttribute('data-item-quantity', quantity.value)
+    })
+  }
+
+  if (button !== null) {
+    const select = document.querySelector('#frame_color')
   select.addEventListener('change', () => {
     // Sets the default frame color when adding the item
     button.setAttribute("data-item-custom1-value", select.value)
   })
+  }
 
-  // let image = document.getElementsByClassName('picker-image');
+  let image = document.getElementsByClassName('picker-image');
 
-  // if (image.length !== 0) {
-  //   let title = document.getElementById('item-Name');
-  //   let button = document.getElementById('item-button');
-  //   initPick(image[0]);
+  if (image.length !== 0) {
+    let title = document.getElementById('item-Name');
+    // let button1 = document.getElementById('item-button');
+    initPick(image[0]);
 
-  //   for (let i = 0; i < image.length; i++) {
-  //     const element = image[i];
-  //     element.addEventListener('click', function () {
-  //       initPick(element);
-  //     });
-  //   }
+    for (let i = 0; i < image.length; i++) {
+      const element = image[i];
+      element.addEventListener('click', function () {
+        initPick(element);
+      });
+    }
 
-  //   function initPick(element) {
-  //     let path = element.src;
-  //     let count = path.split("/").length;
-  //     let filename = path.split("/")[count - 1]
-  //     let name = filename.split('.')[0];
-  //     let cleanNmae = name.replaceAll('-', ' ');
+    function initPick(element) {
+      let path = element.src;
+      let count = path.split("/").length;
+      let filename = path.split("/")[count - 1]
+      let name = filename.split('.')[0];
+      let cleanNmae = name.replaceAll('-', ' ');
 
-  //     title.innerHTML = cleanNmae;
-  //     button.setAttribute('data-item-name', cleanNmae);
-  //     button.setAttribute('data-item-image', path);
-  //     button.setAttribute('data-item-id', cleanNmae);
-  //     button.setAttribute('data-item-description', cleanNmae);
-  //     // button.setAttribute('data-item-url', path);
-  //   }
-  // }
+      title.innerHTML = cleanNmae;
+      // button1.setAttribute('data-item-name', cleanNmae);
+      // button1.setAttribute('data-item-image', path);
+      // button1.setAttribute('data-item-id', cleanNmae);
+      // button1.setAttribute('data-item-description', cleanNmae);
+      // button.setAttribute('data-item-url', path);
+    }
+  }
 
 });
 

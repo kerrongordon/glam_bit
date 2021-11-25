@@ -6,6 +6,11 @@ price: '45.99'
 priceBefore: '68.99'
 shortDescription: Open Toe
 productID: "8"
+typeLable: "Color"
+types:
+- "Bow Slides"
+- "Clear Vybes"
+- "Diamond Slide"
 images:
 - image: "/uploads/Bow-slides-Open-Toe.png"
 - image: "/uploads/Clear-Vybes-Open-Toe.png"

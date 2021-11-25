@@ -6,6 +6,10 @@ price: '120.00'
 priceBefore: '140.00'
 shortDescription: Romper
 productID: "1"
+typeLable: "Color"
+types:
+- "Black"
+- "Pink"
 images:
 - image: "/uploads/Black-Plus-Paisley-Romper.png"
 - image: "/uploads/Pink-Daisy-Romper.png"

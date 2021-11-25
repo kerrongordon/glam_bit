@@ -6,6 +6,11 @@ price: '95.00'
 priceBefore: '120.00'
 shortDescription: Dress
 productID: "6"
+typeLable: "Color"
+types:
+- "Black"
+- "Olive"
+- "Rust"
 images:
 - image: "/uploads/Black-Dress.png"
 - image: "/uploads/Olive-Dress.png"

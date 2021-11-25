@@ -6,6 +6,11 @@ price: '110.00'
 priceBefore: '130.00'
 shortDescription: Bedazzle
 productID: "4"
+typeLable: "Color"
+types:
+- "Blue"
+- "Purple"
+- "Cream"
 images:
 - image: "/uploads/Blue-Bedazzle.png"
 - image: "/uploads/Purple-Bedazzle.png"

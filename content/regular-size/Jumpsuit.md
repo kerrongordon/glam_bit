@@ -6,6 +6,11 @@ price: '110.00'
 priceBefore: '127.99'
 shortDescription: Jumpsuit
 productID: "5"
+typeLable: "Color"
+types:
+- "Baby Blush"
+- "Blue"
+- "Red"
 images:
 - image: "/uploads/Baby-Blush-Jumpsuit.png"
 - image: "/uploads/Blue-Jumpsuit.png"

@@ -6,6 +6,11 @@ price: '75.00'
 priceBefore: '90.00'
 shortDescription: Bags
 productID: "10"
+typeLable: "Color"
+types:
+- "Black"
+- "Green"
+- "Red"
 images:
 - image: "/uploads/Black-Power-Bags.png"
 - image: "/uploads/Green-Power-Bags.png"

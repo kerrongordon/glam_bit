@@ -6,6 +6,12 @@ price: '110.00'
 priceBefore: '120.00'
 shortDescription: Jumpsuit
 productID: "2"
+typeLable: "Color"
+types:
+- "Green"
+- "Black"
+- "Mustard"
+- "Red"
 images:
 - image: "/uploads/Green-Jumpsuit.png"
 - image: "/uploads/Black-Jumpsuit.png"

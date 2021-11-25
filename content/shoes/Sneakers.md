@@ -6,6 +6,10 @@ price: '110.89'
 priceBefore: '150.99'
 shortDescription: Sneakers
 productID: "7"
+typeLable: "Color"
+types:
+- "Blue Extravaganza"
+- "Orange Splash"
 images:
 - image: "/uploads/Blue-extravaganza-Sneakers.png"
 - image: "/uploads/Orange-Splash-Sneakers.png"

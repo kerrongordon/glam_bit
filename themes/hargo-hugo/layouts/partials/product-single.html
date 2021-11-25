@@ -37,7 +37,7 @@
                 <input id="quantity" type="number" class="form-control"></input>
 
                 {{ if isset .Params "typelable" }}
-                    <label class="pt-3">{{ .Params.typeLable }}</label>
+                <label class="pt-3">{{ .Params.typeLable }}</label>
                 {{ end }}
 
                 {{ if isset .Params "types" }}
@@ -51,15 +51,31 @@
                 <button class="snipcart-add-item btn btn-primary mt-4" id="item-button"
                     data-item-id="{{ .Params.ProductID }}" data-item-name="{{ .Title }}" {{ range first 1 .Params.Images
                     }} data-item-image="{{ .image | absURL }}" {{ end }} data-item-price="{{ .Params.Price }}"
-                    data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}"
-                    {{ if isset .Params "typelable" }}
-                    data-item-custom1-name="{{ .Params.typeLable }}"
-                    {{ end }}
-                    {{ if isset .Params "types" }}
-                    data-item-custom1-options="{{ delimit .Params.types "|" }}"
-                    {{ end }}>
+                    data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}" {{ if isset
+                    .Params "typelable" }} data-item-custom1-name="{{ .Params.typeLable }}" {{ end }} {{ if isset
+                    .Params "types" }} data-item-custom1-options="{{ delimit .Params.types " |" }}" {{ end }}>
                     Add to cart
                 </button>
+
+                {{if isset .Params "video" }}
+                <div class="pt-5">
+                    <a data-toggle="modal" data-src="{{ .Params.Video | safeURL }}" data-target="#videoModal"
+                        class="text-color video-modal"><i
+                            class="ti-control-play bg-gradient hover-shadow btn-play mr-2"></i><span>Watch
+                            Review</span></a>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content border-0 rounded-0">
+                            <iframe width="560" height="315" src="" id="video" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
             </div>
             <div class="col-12 mt-5">
                 <ul class="nav nav-tabs border-bottom-0" id="myTab" role="tablist">
