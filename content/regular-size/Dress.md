@@ -2,8 +2,8 @@
 title: Dress
 date: 2021-11-17T11:22:16.000+06:00
 description: Dress
-price: '90.00'
-priceBefore: ''
+price: '95.00'
+priceBefore: '120.00'
 shortDescription: Dress
 productID: "6"
 images:

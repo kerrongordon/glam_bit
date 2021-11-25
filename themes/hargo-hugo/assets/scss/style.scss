@@ -22,3 +22,14 @@ VERSION:	Versoin Number
 @import 'templates/navigation';
 
 @import 'templates/homepage';
+
+
+
+.masthead {
+    height: 40vh;
+    min-height: 400px;
+    background: url(https://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Black-Friday-PNG/Black_Friday_Sale_Banner_PNG_Clipart_Picture.png?m=1438397702);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

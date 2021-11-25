@@ -26,6 +26,7 @@ $(window).on('load', function () {
       title.innerHTML = cleanNmae;
       button.setAttribute('data-item-name', cleanNmae);
       button.setAttribute('data-item-image', path);
+      button.setAttribute('data-item-id', cleanNmae);
     }
   }
 

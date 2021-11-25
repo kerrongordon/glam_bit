@@ -6,9 +6,7 @@ price: '20.00'
 priceBefore: ''
 shortDescription: Heels
 productID: "9"
-video: "https://www.youtube.com/embed/gWoKYv-jsHA"
 images:
-- image: "/uploads/Cris-Cross-Heels.png"
 - image: "/uploads/Glass-Slippers-Heels.png"
 - image: "/uploads/iridescent-Mingle-Heels.png"
 - image: "/uploads/Rainbow-Heels.png"
