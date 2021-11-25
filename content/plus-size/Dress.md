@@ -6,6 +6,11 @@ price: '95.99'
 priceBefore: '120.99'
 shortDescription: Dress
 productID: "3"
+typeLable: "Color"
+types:
+- "Blue"
+- "Moacha"
+- "Pink"
 images:
 - image: "/uploads/Blue-dress.png"
 - image: "/uploads/Moacha-Dress.png"

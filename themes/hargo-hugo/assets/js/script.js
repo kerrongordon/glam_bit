@@ -2,35 +2,48 @@
 $(window).on('load', function () {
   $('.preloader').fadeOut(50);
 
-  let image = document.getElementsByClassName('picker-image');
+  const button = document.querySelector('#item-button')
+  const quantity = document.querySelector('#quantity')
+  quantity.value = 1;
+  quantity.addEventListener('change', () => {
+    // Sets the default quantity when adding the item
+    button.setAttribute('data-item-quantity', quantity.value)
+  })
+  const select = document.querySelector('#frame_color')
+  select.addEventListener('change', () => {
+    // Sets the default frame color when adding the item
+    button.setAttribute("data-item-custom1-value", select.value)
+  })
 
-  if (image.length !== 0) {
-    let title = document.getElementById('item-Name');
-    let button = document.getElementById('item-button');
-    initPick(image[0]);
+  // let image = document.getElementsByClassName('picker-image');
 
-    for (let i = 0; i < image.length; i++) {
-      const element = image[i];
-      element.addEventListener('click', function () {
-        initPick(element);
-      });
-    }
+  // if (image.length !== 0) {
+  //   let title = document.getElementById('item-Name');
+  //   let button = document.getElementById('item-button');
+  //   initPick(image[0]);
 
-    function initPick(element) {
-      let path = element.src;
-      let count = path.split("/").length;
-      let filename = path.split("/")[count - 1]
-      let name = filename.split('.')[0];
-      let cleanNmae = name.replaceAll('-', ' ');
+  //   for (let i = 0; i < image.length; i++) {
+  //     const element = image[i];
+  //     element.addEventListener('click', function () {
+  //       initPick(element);
+  //     });
+  //   }
 
-      title.innerHTML = cleanNmae;
-      button.setAttribute('data-item-name', cleanNmae);
-      button.setAttribute('data-item-image', path);
-      button.setAttribute('data-item-id', cleanNmae);
-      button.setAttribute('data-item-description', cleanNmae);
-      button.setAttribute('data-item-url', path);
-    }
-  }
+  //   function initPick(element) {
+  //     let path = element.src;
+  //     let count = path.split("/").length;
+  //     let filename = path.split("/")[count - 1]
+  //     let name = filename.split('.')[0];
+  //     let cleanNmae = name.replaceAll('-', ' ');
+
+  //     title.innerHTML = cleanNmae;
+  //     button.setAttribute('data-item-name', cleanNmae);
+  //     button.setAttribute('data-item-image', path);
+  //     button.setAttribute('data-item-id', cleanNmae);
+  //     button.setAttribute('data-item-description', cleanNmae);
+  //     // button.setAttribute('data-item-url', path);
+  //   }
+  // }
 
 });
 
