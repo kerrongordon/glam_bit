@@ -9,5 +9,6 @@ productID: "9"
 video: "https://www.youtube.com/embed/gWoKYv-jsHA"
 images:
 - image: "/uploads/Cris-Cross-Heels.png"
+- image: "/uploads/Glass-Slippers-Heels.png"
 
 ---
